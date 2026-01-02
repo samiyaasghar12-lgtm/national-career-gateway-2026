@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Career Gateway | Professional Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=2070');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            transition: background 0.8s ease-in-out;
+        }
+
+        .header-nav {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 10px 0;
+            border-bottom: 3px solid #7b1fa2;
+            width: 100%;
+        }
+
+        .nav-btn {
+            background-color: #7b1fa2 !important;
+            color: white !important;
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 10px 2px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 4px;
+            margin: 2px;
+            cursor: pointer;
+            transition: 0.3s;
+            flex: 1;
+            min-width: 100px;
+        }
+
+        .nav-btn:hover, .nav-btn.active {
+            background-color: #4a148c !important;
+            box-shadow: 0 4px 10px rgba(123, 31, 162, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .content-area {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.98);
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .info-box {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .btn-proceed {
+            background-color: #1b5e20 !important;
+            color: white !important;
+            padding: 14px;
+            border-radius: 8px;
+            font-weight: 700;
+            text-decoration: none;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .btn-proceed:hover {
+            background-color: #0d3d15 !important;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body id="mainBody">
+
+    <div class="header-nav">
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap justify-content-between">
+                <button class="nav-btn active" onclick="updatePortal('NADRA JOBS', 'https://careers.nadra.gov.pk/JobListing', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyewH4tXmUMrspyXFNg2pxPSTVJMNM2dtorw&s', this)">Nadra Jobs</button>
+                <button class="nav-btn" onclick="updatePortal('PAK ARMY', 'https://sjpjobsportal.pk/join-pak-army-jobs/', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzG9jDB46h6EDrzeAtoSXAH2Q_HqGzl_En5A&s', this)">Pak Army</button>
+                <button class="nav-btn" onclick="updatePortal('PAK NAVY', 'https://sjpjobsportal.pk/join-pak-navy-jobs-2026/', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfpzrotUkEJj9QltjI-k5q3qG1elRwy2ukHg&s', this)">Pak Navy</button>
+                <button class="nav-btn" onclick="updatePortal('PPHI SINDH', 'https://pphisindh.org/careers/current_jobs.php', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRln1e61KQEwxALf6ZkSsNCfCvXoN25qasKrA&s', this)">Pphi Sindh</button>
+                <button class="nav-btn" onclick="updatePortal('SINDH POLICE', 'https://sjpjobsportal.pk/sindh-police-jobs-2025-upcoming/', 'https://scontent.fkhi5-2.fna.fbcdn.net/v/t39.30808-6/528155695_1085228370382422_3354811365343007796_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&cb2=99be929b-bd9a46d7&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGSSl0q5AK-qzT3K4R-qxH6Leb3nnRa5IUt5veedFrkhVcehhAGdCNKmCdFx3dK3WnuMNtKamhwJahsmu8vF786&_nc_ohc=zOQ55v-BgBoQ7kNvwHF2YRi&_nc_oc=AdkHSwixTa9z7tdBJg8e36DzRYgCeicjms-wDKfcBAlFg9Ui-_m6Yq2cIQHg4yFXuXZFVu1uXC-oVdomTwVUt51l&_nc_zt=23&_nc_ht=scontent.fkhi5-2.fna&_nc_gid=bfEk5162JgvNqzcPOABcEg&oh=00_Afqntlx-Xt_x81X7YoXjx0DgrQO1sjqGk2FlaeAdyPK2TQ&oe=695D4770', this)">Sindh Police</button>
+                <button class="nav-btn" onclick="updatePortal('FEDERAL (NJP)', 'https://www.njp.gov.pk/', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFPPDHrx_E8HmGtkQQvBzDSC5Z3Z0Cr3BqEg&s', this)">Federal (NJP)</button>
+                <button class="nav-btn" onclick="updatePortal('SINDH FOREST', 'https://sindhforests.gov.pk/page-careers', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX_eqHsTGEn78v9ccClQeNTOQy4d5XTonTkg&s', this)">Sindh Forest</button>
+                <button class="nav-btn" onclick="updatePortal('SSGC JOBS', 'https://www.ssgc.com.pk/careers/', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLc_RDsuL0TmodrUNliR6Sekywf8pAxA1FjA&s', this)">SSGC Jobs</button>
+                <button class="nav-btn" onclick="updatePortal('SINDH JOBS (SJP)', 'https://sjpjobsportal.pk/', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRln1e61KQEwxALf6ZkSsNCfCvXoN25qasKrA&s', this)">Sindh Jobs (SJP)</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-area">
+        <div class="glass-card">
+            <h2 id="cardTitle">NADRA JOBS</h2>
+            <p class="text-muted small fw-bold">Pakistan's Unified Resource for Public Sector Employment</p>
+            <div class="info-box">
+                <h4 id="deptTitle" class="fw-bold text-dark">NADRA JOBS Portal</h4>
+                <p class="text-muted mb-0">Access official recruitment portals and stay updated with the latest federal and provincial vacancies. Select a department to initiate your application.</p>
+            </div>
+            <p class="text-danger fw-bold small">Select a Department Above to Explore Opportunities</p>
+            <a href="https://careers.nadra.gov.pk/JobListing" id="applyLink" target="_blank" class="btn-proceed">PROCEED TO APPLY</a>
+            <p class="mt-3 text-muted" style="font-size: 11px;">Centralized Digital Gateway for Government & Public Sector Careers</p>
+        </div>
+    </div>
+
+    <script>
+        function updatePortal(name, url, img, btn) {
+            const body = document.getElementById('mainBody');
+            body.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('${img}')`;
+            
+            document.getElementById('cardTitle').innerText = name;
+            document.getElementById('deptTitle').innerText = name + " Portal";
+            document.getElementById('applyLink').href = url;
+            
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+    </script>
+</body>
+</html>
