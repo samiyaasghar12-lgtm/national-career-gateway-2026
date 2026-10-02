@@ -2,11 +2,6 @@ PAK National Career Gateway 2026: A Real-World Job Portal
 Why I Built This??
 Finding a job in Pakistan is often difficult because candidates have to search through many different websites. I developed the National Career Gateway 2026 to solve this problem by providing a centralized, "Single-Window" solution. This is a reality-based project in running mode—every link is authentic, verified, and updated for the year 2026.
 
-<img width="627" height="419" alt="in 2" src="https://github.com/user-attachments/assets/0dc87df6-3aaa-47f4-a5f8-9945b6fd42b4" />
-<img width="438" height="251" alt="3hh" src="https://github.com/user-attachments/assets/b68ddf32-7269-4023-b94e-5c02aa70d7a6" />
-<img width="431" height="242" alt="6hh" src="https://github.com/user-attachments/assets/dce18a7e-bcb4-4c1c-833f-a0183309eaf5" />
-
-
 Project Authenticity & Impact
 100% Verified Opportunities: Unlike sample projects, every button on this portal leads to an active, official 2026 recruitment page.
 
@@ -48,4 +43,8 @@ Federal Level: NADRA, Pak Army, Pak Navy, and Federal (NJP).
 Provincial & Special Units: PPHI Sindh, Sindh Police, Sindh Forest, SSGC Jobs, and Sindh Jobs (SJP).
 
 Developer's Note
-"This project is my contribution to helping the youth of Pakistan find Job opportunities more efficiently. Every piece of code and every link is designed to be a bridge between talent and real 2026 opportunities."
+"This project is my contribution to helping the youth of Pakistan find Job opportunities more efficiently. Every piece of code and every link is designed to be a bridge between talent and real 2026 opportunities."<img width="431" height="242" alt="6hh" src="https://github.com/user-attachments/assets/33f41ae4-edd8-456a-9524-5d89c99c0f81" />
+<img width="443" height="256" alt="1 hh" src="https://github.com/user-attachments/assets/2f995ee0-bdbf-4e42-9e75-06ab1a2543fa" />
+<img width="445" height="247" alt="2hh" src="https://github.com/user-attachments/assets/0f7fbdf1-1ff8-465b-a9de-79fdacff2451" />
+<img width="442" height="234" alt="5 hh" src="https://github.com/user-attachments/assets/39c31f9a-cda4-4a63-bf2a-0e4b0f7ad9e6" />
+
