@@ -3,7 +3,6 @@ Why I Built This??
 Finding a job in Pakistan is often difficult because candidates have to search through many different websites. I developed the National Career Gateway 2026 to solve this problem by providing a centralized, "Single-Window" solution. This is a reality-based project in running mode—every link is authentic, verified, and updated for the year 2026.
 
 <img width="627" height="419" alt="in 2" src="https://github.com/user-attachments/assets/0dc87df6-3aaa-47f4-a5f8-9945b6fd42b4" />
-<img width="443" height="256" alt="1 hh" src="https://github.com/user-attachments/assets/20ec5d35-5871-452f-a7ec-24bfd27e6380" />
 <img width="438" height="251" alt="3hh" src="https://github.com/user-attachments/assets/b68ddf32-7269-4023-b94e-5c02aa70d7a6" />
 <img width="431" height="242" alt="6hh" src="https://github.com/user-attachments/assets/dce18a7e-bcb4-4c1c-833f-a0183309eaf5" />
 
